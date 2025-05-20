@@ -5,6 +5,8 @@
   "description": "A basic React setup with D3.js and other frontend libraries.",
   "scripts": {
     "dev": "vite",
+    "prestart": "node prestart.js",
+    "start": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
