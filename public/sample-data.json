@@ -1,0 +1,9 @@
+[
+  { "date": "2024-05-01", "world_ids": 1000, "verified_ids": 100 },
+  { "date": "2024-05-02", "world_ids": 1100, "verified_ids": 140 },
+  { "date": "2024-05-03", "world_ids": 1200, "verified_ids": 170 },
+  { "date": "2024-05-04", "world_ids": 1300, "verified_ids": 210 },
+  { "date": "2024-05-05", "world_ids": 1400, "verified_ids": 260 },
+  { "date": "2024-05-06", "world_ids": 1500, "verified_ids": 310 },
+  { "date": "2024-05-07", "world_ids": 1600, "verified_ids": 370 }
+]

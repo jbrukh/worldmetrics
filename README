@@ -27,7 +27,7 @@ This repository contains a minimal React application powered by [Vite](https://v
 
 Running `npm start` will automatically install dependencies the first time.
 
-3. Open your browser to the address printed in the console (usually `http://localhost:5173`). The page should display a blue circle rendered with D3.js.
+3. Open your browser to the address printed in the console (usually `http://localhost:5173`). The page now displays a metrics chart showing the number of World IDs over time.
 
 ## Building for Production
 
@@ -47,6 +47,19 @@ npm run preview
 # or
 yarn preview
 ```
+
+## Metrics Source
+
+By default the app fetches metrics from `public/sample-data.json`. To query live
+data from [Dune Analytics](https://dune.com/) provide a query ID and API key in a
+`.env` file at the project root:
+
+```env
+VITE_DUNE_API_KEY=your_api_key
+```
+
+Update `DUNE_QUERY_ID` inside `src/WorldMetrics.jsx` with your query ID that
+returns daily `date`, `world_ids`, and `verified_ids` columns.
 
 ## Adding Other Libraries
 
