@@ -18,10 +18,14 @@ This repository contains a minimal React application powered by [Vite](https://v
 
 2. Start the development server:
    ```bash
-   npm run dev
+   npm start        # installs deps if missing
    # or
-   yarn dev
+   yarn start
+   # or
+   npm run dev
    ```
+
+Running `npm start` will automatically install dependencies the first time.
 
 3. Open your browser to the address printed in the console (usually `http://localhost:5173`). The page should display a blue circle rendered with D3.js.
 
