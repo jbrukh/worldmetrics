@@ -1,0 +1,49 @@
+# WorldMetrics React Setup
+
+This repository contains a minimal React application powered by [Vite](https://vitejs.dev/) and includes [D3.js](https://d3js.org/) for data visualization. Use it as a starting point for integrating other frontend libraries.
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 16 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) package manager
+
+## Installation
+
+1. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+2. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+3. Open your browser to the address printed in the console (usually `http://localhost:5173`). The page should display a blue circle rendered with D3.js.
+
+## Building for Production
+
+To create a production build:
+```bash
+npm run build
+# or
+yarn build
+```
+The compiled files will be placed in the `dist/` directory.
+
+## Previewing the Build
+
+After building, you can preview the production build locally:
+```bash
+npm run preview
+# or
+yarn preview
+```
+
+## Adding Other Libraries
+
+Install any additional libraries with `npm install <package>` or `yarn add <package>`, then import them into your React components as needed.
